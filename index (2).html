@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c50909e620004778a8dbc2b522c8a550 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c50909e620004778a8dbc2b522c8a550" ></div>
+        
+</body>
+<script>    
+    
+            var map_c50909e620004778a8dbc2b522c8a550 = L.map(
+                "map_c50909e620004778a8dbc2b522c8a550",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b17786da16146e1a92f32ce7b493c23 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+            var marker_0ded3d450606462bb0b9fd54ee20252b = L.marker(
+                [27.1755041799186, 78.04209611773581],
+                {}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+        var popup_55e10f7b8e0a446aa5d7198f4a0e534b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91f9c4dcf7c944d2b1a0acd411aca58e = $(`<div id="html_91f9c4dcf7c944d2b1a0acd411aca58e" style="width: 100.0%; height: 100.0%;"><h4 style="color:green;">Taj Mahal, India</h3></div>`)[0];
+            popup_55e10f7b8e0a446aa5d7198f4a0e534b.setContent(html_91f9c4dcf7c944d2b1a0acd411aca58e);
+        
+
+        marker_0ded3d450606462bb0b9fd54ee20252b.bindPopup(popup_55e10f7b8e0a446aa5d7198f4a0e534b)
+        ;
+
+        
+    
+    
+            marker_0ded3d450606462bb0b9fd54ee20252b.bindTooltip(
+                `<div>
+                     <strong>Click here to see Popup</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d2b912ecd9c4478a87d2ecfc7e3ea7a = L.marker(
+                [41.890401842524774, 12.49222017757944],
+                {}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+        var popup_372772ec35c04bdb83415d3c9c366aea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3169c67ba1844d29982df0343df5ee32 = $(`<div id="html_3169c67ba1844d29982df0343df5ee32" style="width: 100.0%; height: 100.0%;"><h4 style="color:green;">Colosseum,Italy</h3></div>`)[0];
+            popup_372772ec35c04bdb83415d3c9c366aea.setContent(html_3169c67ba1844d29982df0343df5ee32);
+        
+
+        marker_6d2b912ecd9c4478a87d2ecfc7e3ea7a.bindPopup(popup_372772ec35c04bdb83415d3c9c366aea)
+        ;
+
+        
+    
+    
+            marker_6d2b912ecd9c4478a87d2ecfc7e3ea7a.bindTooltip(
+                `<div>
+                     <strong>Click here to see Popup</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e07765eac24b4c679ff04076ebe6dc8b = L.marker(
+                [20.684586972701645, -88.56608219135173],
+                {}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+        var popup_a9a8a103e7ba45d29c5d0abf9a223f95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27b4ecf13fdd40dba1197d1b3aaa672e = $(`<div id="html_27b4ecf13fdd40dba1197d1b3aaa672e" style="width: 100.0%; height: 100.0%;"><h4 style="color:green;">Chichén Itzá, Mexico</h3></div>`)[0];
+            popup_a9a8a103e7ba45d29c5d0abf9a223f95.setContent(html_27b4ecf13fdd40dba1197d1b3aaa672e);
+        
+
+        marker_e07765eac24b4c679ff04076ebe6dc8b.bindPopup(popup_a9a8a103e7ba45d29c5d0abf9a223f95)
+        ;
+
+        
+    
+    
+            marker_e07765eac24b4c679ff04076ebe6dc8b.bindTooltip(
+                `<div>
+                     <strong>Click here to see Popup</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81066736722f430f8b4c4dcb91537355 = L.marker(
+                [-13.163023719585967, -72.54490599600202],
+                {}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+        var popup_f0431aed6a424885b3e2a7fe3497ca6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c82780d4a3a4f9fa0f0772e18da0526 = $(`<div id="html_0c82780d4a3a4f9fa0f0772e18da0526" style="width: 100.0%; height: 100.0%;"><h4 style="color:green;">Machu Picchu, Peru</h3></div>`)[0];
+            popup_f0431aed6a424885b3e2a7fe3497ca6c.setContent(html_0c82780d4a3a4f9fa0f0772e18da0526);
+        
+
+        marker_81066736722f430f8b4c4dcb91537355.bindPopup(popup_f0431aed6a424885b3e2a7fe3497ca6c)
+        ;
+
+        
+    
+    
+            marker_81066736722f430f8b4c4dcb91537355.bindTooltip(
+                `<div>
+                     <strong>Click here to see Popup</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6c9a5b0192149ba88dafca39564cafc = L.marker(
+                [-22.95174233268602, -43.21028412306276],
+                {}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+        var popup_460c3bd4ecff4f12b3bf8e374260f96a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba0fe308a75246ea8cb97db850f98cbd = $(`<div id="html_ba0fe308a75246ea8cb97db850f98cbd" style="width: 100.0%; height: 100.0%;"><h4 style="color:green;">Christ the Redeemer, Brazil</h3></div>`)[0];
+            popup_460c3bd4ecff4f12b3bf8e374260f96a.setContent(html_ba0fe308a75246ea8cb97db850f98cbd);
+        
+
+        marker_a6c9a5b0192149ba88dafca39564cafc.bindPopup(popup_460c3bd4ecff4f12b3bf8e374260f96a)
+        ;
+
+        
+    
+    
+            marker_a6c9a5b0192149ba88dafca39564cafc.bindTooltip(
+                `<div>
+                     <strong>Click here to see Popup</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32b4c220eadc4811b15f66f4fec40ab1 = L.marker(
+                [30.329086481775096, 35.444362237162835],
+                {}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+        var popup_27c4f1e586f348c5a0c899c667e4c65d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ac0982c4c5346eabfcb427220eb2aa7 = $(`<div id="html_5ac0982c4c5346eabfcb427220eb2aa7" style="width: 100.0%; height: 100.0%;"><h4 style="color:green;">Petra, Jordan</h3></div>`)[0];
+            popup_27c4f1e586f348c5a0c899c667e4c65d.setContent(html_5ac0982c4c5346eabfcb427220eb2aa7);
+        
+
+        marker_32b4c220eadc4811b15f66f4fec40ab1.bindPopup(popup_27c4f1e586f348c5a0c899c667e4c65d)
+        ;
+
+        
+    
+    
+            marker_32b4c220eadc4811b15f66f4fec40ab1.bindTooltip(
+                `<div>
+                     <strong>Click here to see Popup</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c59c19f5901945dcba52938a38d0f0ea = L.marker(
+                [40.43222591414546, 116.57083084905777],
+                {}
+            ).addTo(map_c50909e620004778a8dbc2b522c8a550);
+        
+    
+        var popup_9aa7725973634f87ada78bfd25310a44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51cd965a91604c04b489cb915548950b = $(`<div id="html_51cd965a91604c04b489cb915548950b" style="width: 100.0%; height: 100.0%;"><h4 style="color:green;">Great Wall of China, China</h3></div>`)[0];
+            popup_9aa7725973634f87ada78bfd25310a44.setContent(html_51cd965a91604c04b489cb915548950b);
+        
+
+        marker_c59c19f5901945dcba52938a38d0f0ea.bindPopup(popup_9aa7725973634f87ada78bfd25310a44)
+        ;
+
+        
+    
+    
+            marker_c59c19f5901945dcba52938a38d0f0ea.bindTooltip(
+                `<div>
+                     <strong>Click here to see Popup</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
